@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد سیستم تعقیب و پیگیری احکام - وزارت شهرسازی و مسکن</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; text-align: center; }
+        .dashboard-container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto; }
+        .logo-section { display: flex; justify-content: center; gap: 20px; margin-bottom: 15px; }
+        h1 { color: #1e3a8a; font-size: 22px; margin: 10px 0; line-height: 1.5; }
+        .lang-switcher { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+        .lang-btn { padding: 5px 15px; border: 1px solid #d1d5db; border-radius: 20px; background: white; cursor: pointer; }
+        .lang-btn.active { background: #1e3a8a; color: white; border-color: #1e3a8a; }
+        .date-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 25px; }
+        .date-box { border: 2px solid #e5e7eb; border-radius: 8px; padding: 10px; background: #fff; text-align: right; }
+        .date-box span { display: block; font-size: 12px; color: #6b7280; margin-bottom: 5px; }
+        .date-box strong { color: #1f2937; font-size: 14px; }
+        .qr-section { background: #f8fafc; border: 2px dashed #cbd5e1; border-radius: 8px; padding: 20px; margin-top: 20px; display: flex; flex-direction: column; align-items: center; }
+        .qr-placeholder { width: 120px; height: 120px; background: white; border: 1px solid #ddd; display: flex; justify-content: center; align-items: center; font-size: 10px; color: #999; }
+    </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+    <div class="lang-switcher">
+        <button class="lang-btn">EN</button>
+        <button class="lang-btn">دری</button>
+        <button class="lang-btn active">پښتو</button>
+    </div>
+
+    <div class="logo-section">
+        <div style="font-size: 40px;">🏳️</div>
+        <div style="font-size: 40px;">🇦🇫</div>
+    </div>
+
+    <h1>د کور او ښار جوړولو وزارت د احکامو او هدایاتو د تعقیب او څارنې مدیریت سیستم</h1>
+
+    <div class="date-grid">
+        <div class="date-box">
+            <span>قمري</span>
+            <strong>AH 25/05/1448</strong>
+        </div>
+        <div class="date-box">
+            <span>لمریز</span>
+            <strong>۱۴۰۵/۰۸/۱۴</strong>
+        </div>
+        <div class="date-box">
+            <span>Kabul</span>
+            <strong>PM 08:34:35</strong>
+        </div>
+        <div class="date-box">
+            <span>میلادي</span>
+            <strong>05/11/2026</strong>
+        </div>
+    </div>
+
+    <div style="border-top: 2px solid #e5e7eb; padding-top: 15px;">
+        <h3 style="color: #1e3a8a;">مستند راپور او حساب ورکونه بنسټ</h3>
+    </div>
+
+    <div class="qr-section">
+        <div class="qr-placeholder">🔲</div>
+        <p style="font-size: 12px; margin-top: 10px; color: #4b5563;">د سند د تعقیب لپاره کوډ اسکن کړئ</p>
+    </div>
+</div>
+
+</body>
+</html>
