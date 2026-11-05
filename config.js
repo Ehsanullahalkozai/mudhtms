@@ -1,6 +1,6 @@
 // تنظیمات اتصال به دیتابیس اختصاصی سیستم وزارت شهرسازی
 const SUPABASE_URL = "https://supabase.co";
-const SUPABASE_KEY = "YOUR_SUPABASE_ANON_KEY"; 
+const SUPABASE_KEY = "sn_publis"; 
 
 document.getElementById('loginForm')?.addEventListener('submit', async (e) => {
     e.preventDefault();
